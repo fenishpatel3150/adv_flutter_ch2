@@ -34,7 +34,7 @@ The Time Picker widget in Flutter provides a convenient way to present users wit
 3. **Customizable Appearance:** Developers can customize the appearance of the Time Picker to match the app's design and theme.
 
 4. **Callbacks:** Typically, Time Picker widgets include callbacks or listeners to capture the selected time and perform actions based on that input.
-5. 
+
   <img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/6940d17c-ed02-46c9-bf2f-3aeb1af86cb4" width=22% height=35%>
   <img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/ec781416-b821-43b8-8541-c394f66d5cad" width=22% height=35%>
 
@@ -54,7 +54,7 @@ Flutter provides several types of dialogs that you can use in your app, such as:
 
 You can create and customize dialogs in Flutter using widgets provided by the Flutter framework, such as AlertDialog, SimpleDialog, and BottomSheet. These widgets allow you to specify the dialog's content, actions, appearance, and behavior according to your app's requirements.
   <img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/bf5dc20c-95d2-4b86-9221-de6a63763f7a" width=22% height=35%>
-
+  
 <h1><b> Action Sheet:- </b></h1>
 ActionSheet is a type of modal bottom sheet that displays a set of options or actions for the user to choose from. It typically slides up from the bottom of the screen and presents a list of buttons or items, allowing the user to select one or more options.
 
@@ -63,6 +63,7 @@ ActionSheets are commonly used in mobile app interfaces to provide context-speci
 In Flutter, you can create an ActionSheet using the `showModalBottomSheet` function with the `builder` parameter to define the content of the ActionSheet. You can customize the appearance and behavior of the ActionSheet, such as its background color, button styles, and animation effects, to suit your app's design and functionality.
   
   <img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/872efe20-420d-4a86-9e55-c99f3a265b49" width=22% height=35%>
+  <video src ="https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/70142b28-4c22-4514-82d1-8077021921b5"></video>
 </p>
 
 
