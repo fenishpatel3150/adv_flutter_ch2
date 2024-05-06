@@ -18,6 +18,7 @@ Flutter provides several built-in Date Picker widgets that developers can use to
 4. **CalendarDatePicker:** This widget displays a calendar grid for selecting a date. It can be customized with properties like initial date, first date, last date, selectable days, and more.
 
 Developers can choose the appropriate Date Picker widget based on the design and functionality requirements of their app. The selected date can then be used in the app's logic for various purposes such as scheduling events, setting reminders, or filtering data based on dates.
+
   <img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/ce03ce26-9c4d-475e-99dd-0dd878e4c8c7" width=22% height=35%>
   <img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/4c0785eb-db8e-461a-bf8c-1b1d096693e6" width=22% height=35%>
 
@@ -33,6 +34,7 @@ The Time Picker widget in Flutter provides a convenient way to present users wit
 3. **Customizable Appearance:** Developers can customize the appearance of the Time Picker to match the app's design and theme.
 
 4. **Callbacks:** Typically, Time Picker widgets include callbacks or listeners to capture the selected time and perform actions based on that input.
+5. 
   <img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/6940d17c-ed02-46c9-bf2f-3aeb1af86cb4" width=22% height=35%>
   <img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/ec781416-b821-43b8-8541-c394f66d5cad" width=22% height=35%>
 
