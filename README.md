@@ -1,16 +1,9 @@
 # adv_flutter_ch2
 
-A new Flutter project.
+<p>
+  <h1 align="center"> 😎CHAPTER 2😎 </h1>
+<h2 align = "center"> 💥 Date Picker 💥 </h2>
+  <video src= "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/a0b317ad-84d3-41c7-b564-3e461d7c8b36"></video>
+</p>
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
