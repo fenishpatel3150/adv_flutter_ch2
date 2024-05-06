@@ -53,6 +53,7 @@ Flutter provides several types of dialogs that you can use in your app, such as:
 4. CupertinoAlertDialog: This is an iOS-style dialog with a title, content, and iOS-style action buttons.
 
 You can create and customize dialogs in Flutter using widgets provided by the Flutter framework, such as AlertDialog, SimpleDialog, and BottomSheet. These widgets allow you to specify the dialog's content, actions, appearance, and behavior according to your app's requirements.
+
   <img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/bf5dc20c-95d2-4b86-9221-de6a63763f7a" width=22% height=35%>
   
 <h1><b> Action Sheet:- </b></h1>
