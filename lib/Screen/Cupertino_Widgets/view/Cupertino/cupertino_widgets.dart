@@ -30,19 +30,16 @@ class cupertino_widgets extends StatelessWidget {
             },
           ),
         ),
-        child: Padding(
-          padding: const EdgeInsets.all(16),
-          child: Column(
-            children: [
-              actionsheet(context),
-              activityIndicator(context),
-              alertdialogbox(context),
-              cupertino_button(),
-              cupertinodatepicker(context),
-              cupertino_timer_picker(context),
-              cupertino_list_tile(context),
-            ],
-          ),
+        child: Column(
+          children: [
+            actionsheet(context),
+            activityIndicator(context),
+            alertdialogbox(context),
+            cupertino_button(),
+            cupertinodatepicker(context),
+            cupertino_timer_picker(context),
+            cupertino_list_tile(context),
+          ],
         ));
   }
 }

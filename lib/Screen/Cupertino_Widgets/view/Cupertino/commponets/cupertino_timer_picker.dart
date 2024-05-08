@@ -7,10 +7,14 @@ CupertinoButton cupertino_timer_picker(BuildContext context) {
   return CupertinoButton(
     child: cupertinowidgets("TimerPicker"),
     onPressed: () {
-      showModalBottomSheet(context: context, builder: (context) =>
-          CupertinoTimerPicker(onTimerDurationChanged: (value) {
+      showCupertinoModalPopup(context: context, builder: (context) =>
+          Container(
+            height: 200,
+            color: CupertinoColors.white,
+            child: CupertinoTimerPicker(onTimerDurationChanged: (value) {
 
-          },),);
+            },),
+          ),);
     },
   );
 }

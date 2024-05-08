@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 
 CupertinoButton alertdialogbox(BuildContext context) {
   return CupertinoButton(child: cupertinowidgets("Alert Dialog"), onPressed: () {
-    showDialog(context: context, builder: (context) => AlertDialog(
+    showCupertinoDialog(context: context, builder: (context) => CupertinoAlertDialog(
       actions: [
         TextButton(
           onPressed: () {

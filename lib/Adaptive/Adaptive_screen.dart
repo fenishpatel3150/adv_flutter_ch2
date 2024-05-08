@@ -1,3 +1,4 @@
+
 import 'package:adv_flutter_ch2/Screen/Cupertino_Widgets/provider/platfrom.dart';
 import 'package:adv_flutter_ch2/Screen/Cupertino_Widgets/view/Cupertino/cupertino_widgets.dart';
 import 'package:adv_flutter_ch2/Screen/Cupertino_Widgets/view/Matrialapp/Matrial_Widget.dart';
@@ -10,13 +11,14 @@ class Adaptive_screen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Provider.of<platfrom_provider>(context, listen: true)
-        .isswitch ? MaterialApp(
+    return Provider.of<platfrom_provider>(context, listen: true).isswitch
+        ?  MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Matrial_Screen(),
-    ):CupertinoApp(
+            home: Matrial_Screen(),
+          )
+        : CupertinoApp(
       debugShowCheckedModeBanner: false,
-      home: cupertino_widgets(),
-    );
+            home: cupertino_widgets(),
+          );
   }
 }

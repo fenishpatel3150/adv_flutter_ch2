@@ -7,9 +7,13 @@ CupertinoButton cupertinodatepicker(BuildContext context) {
   return CupertinoButton(
     child: cupertinowidgets("DatePicker"),
     onPressed: () {
-      showModalBottomSheet(context: context, builder: (context) => CupertinoDatePicker(
-        mode:CupertinoDatePickerMode.dateAndTime,
-        onDateTimeChanged: (DateTime value) {},
+      showCupertinoModalPopup(context: context, builder: (context) => Container(
+        height: 250,
+        color: CupertinoColors.white,
+        child: CupertinoDatePicker(
+          mode:CupertinoDatePickerMode.dateAndTime,
+          onDateTimeChanged: (DateTime value) {},
+        ),
       ),);
 
     },
