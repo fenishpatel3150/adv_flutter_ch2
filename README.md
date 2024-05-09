@@ -1,4 +1,3 @@
-# adv_flutter_ch2
 
 <p>
   <h1 align="center"> CHAPTER 2 </h1>
@@ -65,6 +64,28 @@ In Flutter, you can create an ActionSheet using the `showModalBottomSheet` funct
   
   <img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/872efe20-420d-4a86-9e55-c99f3a265b49" width=22% height=35%>
   <video src ="https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/70142b28-4c22-4514-82d1-8077021921b5"></video>
+
+
+<h1 align="center"><b> <i>2 Cupertino Widgets</i> </b></h1>
+
+<h1><b> Cupertino App </b></h1>
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/61469d81-779c-426a-b684-78bcbc323036" width=22% height=35%>
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/d6a811cc-da70-4dde-a61b-d401ae7f46f8" width=22% height=35%>
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/f99999b9-67c0-40a6-8673-25aa9f5f1806" width=22% height=35%>
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/f356ba64-403e-4359-979e-78af645a009e" width=22% height=35%>
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/3c99b39f-e565-4ac5-b171-790d497a78d1" width=22% height=35%>
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/57b6578d-0879-4363-bae0-42a0bf3d02db" width=22% height=35%>
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/e0e25eea-513f-4740-b868-34366d0ea37b" width=22% height=35%>
+
+<h1><b> Matrial App </b></h1>
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/020a44a2-f2c2-408e-9c2e-63e84d32df1b" width=22% height=35%>
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/058e8a43-9529-4a47-add1-5cbe70b29eb5" width=22% height=35%>
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/3d9d6797-4b5a-4cf5-9072-b6da45e52983" width=22% height=35%>
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/f2fc3100-4685-48ca-a4c2-3ea17644291b" width=22% height=35%>
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/4371ad3e-7ce6-46d8-ab98-5f9943771d89" width=22% height=35%>
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/38e70b32-7e8b-4222-8977-bd93a7923bf5" width=22% height=35%>
+  
+  
 </p>
 
 
