@@ -1,6 +1,8 @@
 import 'package:adv_flutter_ch2/Adaptive/Adaptive_screen.dart';
 import 'package:adv_flutter_ch2/Screen/Cupertino_Widgets/provider/platfrom.dart';
 import 'package:adv_flutter_ch2/Screen/Material_&_Cupertino/Date_Picker/provider/Picker_Provider.dart';
+import 'package:adv_flutter_ch2/Screen/Sliver/view/sliver_screen.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -21,6 +23,10 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const Adaptive_screen();
+    return  CupertinoApp(
+      debugShowCheckedModeBanner: false,
+      home: Sliver_Screen(),
+    );
+    // Adaptive_screen();
   }
 }

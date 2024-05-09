@@ -6,7 +6,7 @@ CupertinoButton actionsheet(BuildContext context) {
   return CupertinoButton(
     child: cupertinowidgets("Action Sheet"),
     onPressed: () {
-      showCupertinoDialog(
+      showCupertinoModalPopup(
           context: context,
           builder: (context) => CupertinoActionSheet(
                 title: Text(
@@ -32,6 +32,9 @@ CupertinoButton actionsheet(BuildContext context) {
                       style: TextStyle(color: Colors.blue, fontSize: 20),))),
               ],
             ),
+            cancelButton: CupertinoActionSheetAction(onPressed: () {
+              Navigator.of(context).pop();
+            }, child: Text('Cancel')),
               ));
     },
   );
