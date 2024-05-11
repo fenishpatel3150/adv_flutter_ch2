@@ -66,7 +66,7 @@ In Flutter, you can create an ActionSheet using the `showModalBottomSheet` funct
   <video src ="https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/70142b28-4c22-4514-82d1-8077021921b5"></video>
 
 
-<h1 align="center"><b> <i>2 Cupertino Widgets</i> </b></h1>
+<h1 align="center"><b> <i>2. Cupertino Widgets</i> </b></h1>
 
 <h1><b> Cupertino App </b></h1>
 <img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/61469d81-779c-426a-b684-78bcbc323036" width=22% height=35%>
@@ -84,8 +84,42 @@ In Flutter, you can create an ActionSheet using the `showModalBottomSheet` funct
 <img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/f2fc3100-4685-48ca-a4c2-3ea17644291b" width=22% height=35%>
 <img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/4371ad3e-7ce6-46d8-ab98-5f9943771d89" width=22% height=35%>
 <img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/38e70b32-7e8b-4222-8977-bd93a7923bf5" width=22% height=35%>
+
   
+<h1 align="center"><b> <i>3. CupertinoSliverNavigationBar  & CupertinoListTile </i> </b></h1>
+
+<h1><b>1.CupertinoSliverNavigationBar:-</b></h1>
+Description: This widget is part of the Cupertino library in Flutter and is used specifically for implementing a navigation bar within a CustomScrollView. It is similar to the traditional SliverAppBar but designed with Cupertino-style aesthetics.
+<h1><b>Key Features:-</b></h1>
+
+Typically used in conjunction with a CustomScrollView to create scrolling navigation bars.
+
+Provides options for leading and trailing widgets, similar to a traditional AppBar.
+
+Supports title text and background colors that blend seamlessly with iOS designs.
+
+Can be configured with various properties such as largeTitle, automaticallyImplyLeading, border, etc., to customize its appearance and behavior.
+
+<h1><b>2.CupertinoListTile:-</b></h1>
+Description: This widget is part of the Cupertino library and is used to create list items in iOS-style lists. It's similar to the ListTile widget in Material Design but styled according to iOS guidelines.
+<h1><b>Key Features:-</b></h1>
+
+Used within ListView or List widgets to create individual items in a list.
+
+Supports leading and trailing icons or widgets, along with a title and subtitle.
+
+Automatically adapts its appearance based on the platform (iOS or Android) when used in a platform-aware widget like CupertinoList.
+
+Offers properties like onTap, isThreeLine, dense, etc., for customization based on design needs.
+
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/97c235c9-2221-4ae3-8a6d-840c2c37060c" width=22% height=35%>
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/0acceb97-4348-4abc-b797-3a6627a70da9" width=22% height=35%>
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/c06408ab-b19f-44ce-ad5b-0492446cda71" width=22% height=35%>
   
+https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/a0067539-b166-4f13-842c-4afd4693e083
 </p>
+
+
+
 
 
