@@ -28,7 +28,7 @@ class Cupertino_screen extends StatelessWidget {
         ]
         ),
         tabBuilder: (context, index) {
-          return Center(child: Text(tablist[index]['name'],style: TextStyle(color: CupertinoColors.white),));
+          return Center(child: Text(tablist[index]['name'],));
         },
 
       ),
