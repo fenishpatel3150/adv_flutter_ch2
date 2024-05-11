@@ -117,6 +117,74 @@ Offers properties like onTap, isThreeLine, dense, etc., for customization based 
 <img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/c06408ab-b19f-44ce-ad5b-0492446cda71" width=22% height=35%>
   
 https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/a0067539-b166-4f13-842c-4afd4693e083
+
+
+<h1><b> 3. CupertinoTabBar, CupertinoSlider & CupertinoSlidingSegmentedControl:-</b></h1>
+<h1><b>CupertinoTabBar:-</b></h1>
+
+The `CupertinoTabBar` widget is a part of the Cupertino widgets library in Flutter, specifically designed to mimic the appearance and behavior of the iOS tab bar. It's typically used in iOS-style applications to provide a navigation mechanism where users can switch between different screens or sections of an app by tapping on individual tabs.
+
+Key features and characteristics of the `CupertinoTabBar` include:
+
+1. **Tab Navigation:** It organizes multiple tabs horizontally at the bottom of the screen, allowing users to navigate between different sections of the app by tapping on each tab.
+
+2. **Customizable Tabs:** Each tab in the `CupertinoTabBar` can be customized with icons, text labels, or both. This customization helps in visually distinguishing between tabs and providing context about the content of each section.
+
+3. **Active Tab Highlighting:** When a tab is selected, it becomes visually highlighted to indicate the active section of the app. This helps users keep track of their current location within the app's navigation hierarchy.
+
+4. **Tab Switching Animation:** The `CupertinoTabBar` includes smooth animation effects when switching between tabs, providing a polished user experience.
+
+5. **Integration with CupertinoTabScaffold:** The `CupertinoTabBar` is often used in conjunction with `CupertinoTabScaffold`, which provides a scaffold layout with a tab bar at the bottom and a content area that changes based on the selected tab.
+Overall, the `CupertinoTabBar` widget is a fundamental component for creating iOS-style navigation in Flutter apps, offering a familiar user interface for iOS users while leveraging Flutter's cross-platform capabilities.
+
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/93725167-b19c-4808-b863-9c6505a2a5e6" width=22% height=35%>
+
+<h1><b>CupertinoSlider:-</b></h1>
+
+The `CupertinoSlider` widget in Flutter's Cupertino library is a component that allows users to select a value from a continuous range by sliding a thumb along a track. It resembles the slider control commonly found in iOS apps.
+
+
+- **Purpose**: Used for selecting a value from a continuous range.
+- **Appearance**: Consists of a track, thumb, and optional divisions.
+- **Usage**: Typically used for settings where users can adjust values like volume, brightness, or progress.
+- **Control**: Users can slide the thumb along the track to set the desired value.
+- **Properties**:
+  - `value`: The current value of the slider.
+  - `minValue` and `maxValue`: Define the minimum and maximum values of the slider.
+  - `onChanged`: Callback function triggered when the slider's value changes.
+  - `divisions`: Optionally divides the slider track into intervals.
+- **Styling**: Supports customization of colors and appearance to fit the app's design.
+- **Accessibility**: Provides support for accessibility features like semantics labels for screen readers.
+
+Overall, the `CupertinoSlider` widget is a user-friendly and customizable way to implement value selection through sliding gestures in iOS-style Flutter apps.
+
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/c2f583f8-aafe-44b4-b8b7-d19e90e896d7" width=22% height=35%>
+
+<h1><b>CupertinoSlidingSegmentedControl:-</b></h1>
+
+`CupertinoSlidingSegmentedControl` is a widget provided by Flutter's Cupertino library, specifically designed to create a segmented control with sliding animation for iOS-style interfaces. It allows users to select from a set of mutually exclusive options displayed as segments. These segments slide smoothly to indicate the selected option.
+
+Key features and characteristics of `CupertinoSlidingSegmentedControl` include:
+
+1. **Segmented Control:** It presents a segmented control interface where each segment represents an option.
+
+2. **Sliding Animation:** When the user selects a segment, the control smoothly slides to the selected segment, providing visual feedback.
+
+3. **iOS Style:** It follows the design patterns and visual style of iOS, making it suitable for building apps that adhere to iOS design guidelines.
+
+4. **Customizable:** You can customize the appearance of segments, such as text, color, and size, to match your app's design.
+
+5. **Mutually Exclusive:** By default, only one segment can be selected at a time, making it suitable for scenarios where users need to choose a single option from a list of choices.
+
+Overall, `CupertinoSlidingSegmentedControl` is a useful widget for creating segmented controls with a modern iOS look and feel, enhancing the user experience in Flutter apps targeting iOS devices.
+
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/a1fb7fcd-7a4e-4e4d-9673-507f5291a7c6" width=22% height=35%>
+
+
+https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/2872e67e-4586-47a8-a451-e5eb28395f99
+
+
+
 </p>
 
 
