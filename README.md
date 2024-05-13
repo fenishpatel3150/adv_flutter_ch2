@@ -185,6 +185,63 @@ https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/2872e67e-458
 
 
 
+<h2 align = "center"> <i> 4.  Page View & BottomNavigationBar </i> </h2>
+<h1><b>Page View </b></h1>
+
+Horizontal or Vertical Swiping: You can configure a PageView widget to allow swiping either horizontally or vertically. This is controlled by setting the scrollDirection property to either Axis.horizontal or Axis.vertical.
+
+Page Control: PageView includes built-in page control indicators, typically displayed as dots at the bottom of the view. These indicators represent the total number of pages and the currently active page. You can customize the appearance of these indicators using the PageController and PageIndicatorBuilder properties.
+
+Page Snapping: By default, PageView snaps to the beginning of each page during scrolling. This behavior can be customized using the pageSnapping property, which determines whether pages should snap to their start or align with the current scroll position.
+
+Page Controller: The PageController class is used to control the PageView widget programmatically. It allows you to jump to a specific page, animate to the next or previous page, or listen to page change events.
+
+Dynamic Page Content: Each page within a PageView can contain dynamic content, such as widgets, images, text, or any custom UI elements. You can define different layouts and interactions for each page as needed.
+
+Performance Optimization: Flutter’s rendering engine efficiently manages the rendering of pages within a PageView, optimizing performance by only rendering visible pages and their immediate neighbors.
+
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/2df92f3c-ef99-4103-80af-6a672412bb16" width=22% height=35%>
+
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/c749bf3b-2eec-4acc-823e-3de49a0568e3" width=22% height=35%>
+
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/d8838541-ae18-4882-8e2a-8860818959d8" width=22% height=35%>
+
+
+https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/a9435085-6552-4f86-979a-9a4b83205e49
+
+<h1><b> BottomNavigationBar </b></h1>
+
+BottomNavigationBar and BottomNavigationBarItem are widgets used to create a navigation bar at the bottom of the screen with multiple navigation options. Here's a detailed description of BottomNavigationBarItems:
+
+Purpose: BottomNavigationBar is often used in mobile applications to provide easy and quick navigation between different sections or screens of the app. Each item in the navigation bar represents a distinct destination within the app.
+
+Items: A BottomNavigationBar is composed of multiple BottomNavigationBarItem widgets. Each BottomNavigationBarItem represents a single navigation option. You can have two or more items in the navigation bar, typically between 2 to 5 items for better user experience.
+
+Structure of BottomNavigationBarItem:
+
+Icon: Each BottomNavigationBarItem includes an icon to represent the navigation option visually. Icons are usually from the Icons class in Flutter or custom icons.
+Label (Optional): Along with the icon, you can provide an optional label for each item. Labels are typically short descriptive texts that clarify the purpose of the navigation option.
+Active and Inactive States: BottomNavigationBarItem widgets can have different styles for the active (selected) and inactive (unselected) states. This helps users visually identify the currently active item.
+Handling Selection:
+
+The currentIndex property of BottomNavigationBar indicates which item is currently selected.
+You can specify the initial selected item using the currentIndex property.
+Use the onTap callback provided by BottomNavigationBar to handle item selection. When a user taps on an item, the onTap callback is triggered with the index of the tapped item.
+Styling and Customization:
+
+You can customize the appearance of BottomNavigationBarItem widgets, such as the color, icon size, label style, and more.
+BottomNavigationBar provides properties like selectedItemColor, unselectedItemColor, selectedIconTheme, unselectedIconTheme, etc., for styling.
+Navigation Logic:
+
+Typically, when a user taps on a navigation item, you use the onTap callback to update the currentIndex and trigger navigation to the corresponding screen or content.
+Navigation can be managed using Flutter's navigation system, such as Navigator and routes
+
+
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/9fc197ea-e625-41ef-84d5-62deb892d706" width=22% height=35%>
+
+https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/940312a3-d946-428e-b763-6c28656b5469
+
+
 </p>
 
 
