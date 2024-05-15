@@ -1,12 +1,14 @@
 import 'package:adv_flutter_ch2/Screen/Bottomnavigationbar/provider/bottomnavigationbar_provider.dart';
 import 'package:adv_flutter_ch2/Screen/Bottomnavigationbar/view/tab_bar_screen.dart';
+import 'package:adv_flutter_ch2/Screen/CupertinoContextMenu/cupertino_context_menu.dart';
 import 'package:adv_flutter_ch2/Screen/CupertinoTabBar/provider/Slider_Provider.dart';
 import 'package:adv_flutter_ch2/Screen/CupertinoTabBar/provider/Sliding_provider.dart';
 import 'package:adv_flutter_ch2/Screen/CupertinoTabBar/provider/radio_provider.dart';
 import 'package:adv_flutter_ch2/Screen/CupertinoTabBar/view/Cupertinotabbar/cupertinotabbar.dart';
 import 'package:adv_flutter_ch2/Screen/Cupertino_Widgets/provider/platfrom.dart';
 import 'package:adv_flutter_ch2/Screen/Material_&_Cupertino/Date_Picker/provider/Picker_Provider.dart';
-import 'package:adv_flutter_ch2/Screen/pageview/view/pageview_screen.dart';
+import 'package:adv_flutter_ch2/Screen/Sliver/view/sliver_screen.dart';
+import 'package:adv_flutter_ch2/Screen/cupertinoActionSheet/cupertino_Action_Sheet.dart';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -40,11 +42,19 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:Tab_bar_screen(),
-      //Pageview(),
-      //Cupertino_screen(),
-      //Sliver_Screen(),
+      initialRoute: '/action',
+      routes:
+      {
+        '/action':(context) => Cupertino_action_sheet(),
+        '/tab':(context) => Tab_bar_screen(),
+        '/page':(context) => PageView(),
+        '/retinoscopies':(context) => Cupertino_screen(),
+        '/sliver':(context) => Sliver_Screen(),
+        '/menu':(context) => Context_menu(),
+      },
+
     );
+
     // Adaptive_screen();
   }
 }
