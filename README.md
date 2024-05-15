@@ -77,7 +77,7 @@ In Flutter, you can create an ActionSheet using the `showModalBottomSheet` funct
 <img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/57b6578d-0879-4363-bae0-42a0bf3d02db" width=22% height=35%>
 <img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/e0e25eea-513f-4740-b868-34366d0ea37b" width=22% height=35%>
 
-<h1><b> Matrial App </b></h1>
+<h1><b> Material App </b></h1>
 <img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/020a44a2-f2c2-408e-9c2e-63e84d32df1b" width=22% height=35%>
 <img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/058e8a43-9529-4a47-add1-5cbe70b29eb5" width=22% height=35%>
 <img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/3d9d6797-4b5a-4cf5-9072-b6da45e52983" width=22% height=35%>
@@ -240,6 +240,49 @@ Navigation can be managed using Flutter's navigation system, such as Navigator a
 <img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/9fc197ea-e625-41ef-84d5-62deb892d706" width=22% height=35%>
 
 https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/940312a3-d946-428e-b763-6c28656b5469
+
+
+<h2 align = "center"> <i> 5. CupertinoActionSheet & CupertinoContextMenu  </i> </h2>
+<h1><b>CupertinoActionSheet</b></h1>
+
+The `CupertinoActionSheet` widget in Flutter is specifically designed to create iOS-style action sheets within your app. It mimics the look and behavior of action sheets typically seen in iOS applications, making it a great choice if you want your Flutter app to have a consistent appearance across different platforms.
+
+Key features and components of `CupertinoActionSheet` include:
+
+1. **Title**: You can include a title at the top of the action sheet to provide context or instructions to the user.
+
+2. **Actions**: These are the individual options or actions that users can choose from. Each action is typically represented as a button or text that users can tap.
+
+3. **Cancel Button**: The action sheet can include a cancel button, which allows users to dismiss the action sheet without selecting any specific action.
+
+4. **Styling**: `CupertinoActionSheet` automatically applies iOS-style styling, such as font sizes, button designs, and overall layout, ensuring a consistent look with other iOS components in your app.
+
+5. **Responsiveness**: The action sheet adjusts its size and layout based on the content it contains, ensuring that it remains visually appealing and functional across various screen sizes and orientations.
+
+When using `CupertinoActionSheet`, you can customize aspects such as the title, actions, cancel button, and overall appearance to match your app's design and user experience requirements. It's a powerful tool for creating intuitive and familiar interactions for iOS users within your Flutter app.
+
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/bae46988-bfd7-47a3-bb4a-9e24f3e2726f" width=22% height=35%>
+
+<h1><b>CupertinoContextMenu</b></h1>
+
+The `CupertinoContextMenu` widget in Flutter is part of the Cupertino widgets, which are designed to mimic the iOS user interface. This widget is used to show a context menu when the user performs a long press on a specific widget or area of the screen.
+
+Here's a breakdown of its key features and usage:
+
+1. **Triggering Context Menu:** You typically wrap a widget like `GestureDetector` around the UI element where you want the context menu to appear. Then, you set the `onLongPress` callback to show the `CupertinoContextMenu`.
+
+2. **Menu Items:** You can populate the context menu with items using the `actions` property. Each action is represented by a `CupertinoContextMenuAction` widget, where you define the title, handler function, and possibly an icon.
+
+3. **Customization:** The `CupertinoContextMenu` widget allows for customization of its appearance. You can set properties like `previewBuilder` to show a preview of what will happen when an action is selected, `child` to display a child widget when the menu is open, and `useRootNavigator` to control whether the menu uses the root navigator.
+
+4. **Handling Selection:** When the user selects an action from the context menu, you can handle the action by providing a callback function to the `onActionTap` property of each `CupertinoContextMenuAction`.
+
+Overall, `CupertinoContextMenu` provides a convenient way to implement context menus in your Flutter app that adhere to iOS design principles.
+
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/cc0123fe-bb47-4283-ac0c-d63ca0eaed8e" width=22% height=35%>
+
+https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/c4311967-3da3-4794-a528-d207e552f447
+
 
 
 </p>
