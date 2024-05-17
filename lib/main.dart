@@ -6,6 +6,8 @@ import 'package:adv_flutter_ch2/Screen/CupertinoTabBar/provider/Sliding_provider
 import 'package:adv_flutter_ch2/Screen/CupertinoTabBar/provider/radio_provider.dart';
 import 'package:adv_flutter_ch2/Screen/CupertinoTabBar/view/Cupertinotabbar/cupertinotabbar.dart';
 import 'package:adv_flutter_ch2/Screen/Cupertino_Widgets/provider/platfrom.dart';
+import 'package:adv_flutter_ch2/Screen/Date_Picker/provider/conveter.dart';
+import 'package:adv_flutter_ch2/Screen/Date_Picker/view/Material/datepicker_sccreen.dart';
 import 'package:adv_flutter_ch2/Screen/Material_&_Cupertino/Date_Picker/provider/Picker_Provider.dart';
 import 'package:adv_flutter_ch2/Screen/Sliver/view/sliver_screen.dart';
 import 'package:adv_flutter_ch2/Screen/cupertinoActionSheet/cupertino_Action_Sheet.dart';
@@ -28,6 +30,7 @@ void main() {
       ChangeNotifierProvider(create:(context) => Slider_Provider(),),
       ChangeNotifierProvider(create:(context) => Sliding_provider(),),
       ChangeNotifierProvider(create:(context) => navigation_provider(),),
+      ChangeNotifierProvider(create:(context) => Plaform_convetor(),),
     ],
     child: const
     MyApp(),
@@ -42,7 +45,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/action',
+      initialRoute: '/date',
       routes:
       {
         '/action':(context) => Cupertino_action_sheet(),
@@ -51,6 +54,7 @@ class MyApp extends StatelessWidget {
         '/retinoscopies':(context) => Cupertino_screen(),
         '/sliver':(context) => Sliver_Screen(),
         '/menu':(context) => Context_menu(),
+        '/date':(context) => Material_date_picker(),
       },
 
     );

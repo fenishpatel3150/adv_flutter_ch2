@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 class platfrom_provider extends ChangeNotifier
 {
-    bool isswitch =true;
+    bool isswitch =false;
 
      void platswitch(bool value)
     {
