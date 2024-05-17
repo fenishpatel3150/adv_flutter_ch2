@@ -284,6 +284,64 @@ Overall, `CupertinoContextMenu` provides a convenient way to implement context m
 https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/c4311967-3da3-4794-a528-d207e552f447
 
 
+<h2 align = "center"> <i> 6. Date Picker (Android & iOS) </i> </h2>
+
+<h1><b> Date Picker in Flutter for Android and iOS  </b></h1>
+
+Flutter, Google's UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase, provides a unified way to implement date pickers for both Android and iOS. Using Flutter's built-in widgets, developers can create a date picker that adheres to the design guidelines of both platforms.
+
+#### Flutter Date Picker Widget
+
+**1. `showDatePicker` Function:**
+- **Overview:** `showDatePicker` is a built-in function in Flutter that displays a material design date picker in a dialog.
+- **Design:** On Android, it appears as a typical material design dialog with a calendar view. On iOS, it adapts to the Cupertino style to maintain the native feel.
+- **Components:** Includes a header displaying the current month and year, a grid of days for the selected month, and navigation controls for changing the month and year.
+- **Interaction:** Users can tap on a date to select it. Navigation between months is typically done using arrow buttons or swiping.
+
+**Customization Options:**
+- **Initial Date:** The date initially selected when the picker is shown.
+- **First Date and Last Date:** Define the selectable date range.
+- **Locale:** Allows setting a specific locale for date formatting.
+- **Text Direction:** Supports both LTR and RTL text directions.
+- **Selectable Day Predicate:** A function that can be used to enable or disable specific dates.
+
+**2. Cupertino Date Picker:**
+- **Overview:** For a more iOS-specific look and feel, Flutter provides the `CupertinoDatePicker` widget, which mimics the native iOS date picker.
+- **Design:** Appears as a spinning wheel selector, characteristic of iOS.
+- **Components:** Includes spinning wheels for day, month, and year.
+- **Interaction:** Users scroll through each wheel to set the date.
+
+**Customization Options:**
+- **Mode:** Supports different modes such as `date`, `time`, and `dateAndTime`.
+- **Initial Date and Time:** The initial date and/or time displayed when the picker is shown.
+- **Minimum and Maximum Date:** Set the minimum and maximum allowable dates.
+- **Minute Interval:** Specifies the interval for minute selection (e.g., every 1, 5, or 15 minutes).
+- **Locale:** Customize the locale for the date picker to support internationalization.
+
+**3. Combined Platform-Specific Appearance:**
+- **Adaptive Design:** By using platform checks, developers can show a `CupertinoDatePicker` on iOS and a `showDatePicker` dialog on Android, ensuring a native look and feel on each platform.
+- **User Experience:** This approach leverages Flutter's ability to adapt the UI to the underlying platform, providing a seamless user experience across both Android and iOS.
+
+**4. Example Widgets:**
+- **DatePickerDialog:** For a more custom or complex date picker implementation, developers can create a custom `DatePickerDialog` using standard Flutter widgets.
+- **Form Integration:** Date pickers can be integrated into forms using `TextFormField` and other input widgets to allow users to pick dates within form fields.
+
+By using these widgets and customization options, Flutter developers can implement versatile and user-friendly date pickers that cater to both Android and iOS platforms, ensuring a consistent and native user experience.
+
+<h1><b>Ios</b></h1>
+
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/693dc064-689d-44e4-8683-3588aaead7f2" width=22% height=35%>
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/9c2a424e-d118-4362-858e-4f528b662842" width=22% height=35%>
+
+<h1><b>Android</b></h1>
+
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/4c8f773e-0834-4d03-9f13-e7be466e7081" width=22% height=35%>
+<img src = "https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/7c22ed3b-63bf-4008-9576-d4e5eb912d08" width=22% height=35%>
+
+
+
+https://github.com/fenishpatel3150/adv_flutter_ch2/assets/143187609/06f4449f-5217-4251-b142-f261a4098f3d
+
 
 </p>
 
